@@ -1,0 +1,6 @@
+{
+  "name": "Smart Notes",
+  "description": "A fast, lightweight, offline-first native notepad application with categories, custom themes, robust search, backup & restore, secure lock options, and a beautiful Material 3 user interface.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,49 @@
+name: smart_notes
+description: "Smart Notes - A fast, lightweight, offline-first notepad application with categories, search, themes, security lock, and backup capabilities."
+version: 1.0.0+1
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.5.0
+  riverpod: ^2.5.0
+
+  # Local Database
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Device Info & Platform Utilities
+  path_provider: ^2.1.2
+  share_plus: ^7.2.1
+  flutter_colorpicker: ^1.1.0
+  uuid: ^4.3.3
+  archive: ^3.6.1 # For backup ZIP support
+  local_auth: ^2.2.0 # Biometrics (fingerprint/face unlock)
+  google_mobile_ads: ^5.1.0 # Google Mobile Ads SDK for monetization
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+  # Firebase
+  firebase_core: ^2.32.0
+  firebase_analytics: ^10.10.7
+  firebase_crashlytics: ^3.4.9
+  firebase_remote_config: ^0.4.4+7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.9
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
